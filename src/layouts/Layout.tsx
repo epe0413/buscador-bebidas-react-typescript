@@ -10,11 +10,11 @@ export default function Layout() {
     useEffect(()=> {
         loadFromStorage()
     },[])
-    
+
     return (
         <>
             <Header/>
-            <main className='containter mx-auto py-16'>
+            <main className='containter mx-10 py-16'>
                 <Outlet/>
             </main>
             <Modal/>
